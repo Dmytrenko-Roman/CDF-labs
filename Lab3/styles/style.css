@@ -1,0 +1,33 @@
+p {
+  text-align:left;
+  color: white
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+  color: white;
+}
+
+li {
+  color: white
+}
+
+dl {
+  color: white
+}
+
+a:link, a:active, a:visited {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+#arteon {
+  background-image: url("../imgs/arteon.jpg");
+}
+
+p.center_paragraph {
+  text-align: center;
+}
