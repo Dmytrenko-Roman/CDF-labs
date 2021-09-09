@@ -1,11 +1,15 @@
 p {
   text-align:left;
-  color: white
+  color: white;
+  font-style: normal;
+  font-size: medium;
 }
 
 h1, h2, h3, h4, h5, h6 {
   text-align: left;
   color: white;
+  font-style: normal;
+  font-size: large;
 }
 
 li {
@@ -30,4 +34,15 @@ body {
 
 p.center_paragraph {
   text-align: center;
+  color: white;
+  font-style: normal;
+  font-size: medium;
+}
+
+h1.center_header, h2.center_header, h3.center_header, 
+h4.center_header, h5.center_header, h6.center_header {
+  text-align: center;
+  color: white;
+  font-style: normal;
+  font-size: large;
 }
