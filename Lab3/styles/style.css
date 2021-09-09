@@ -1,5 +1,5 @@
 p {
-  text-align:left;
+  text-align: left;
   color: white;
   font-style: normal;
   font-size: medium;
@@ -13,23 +13,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 li {
-  color: white
+  text-align: left;
+  color: white;
+  font-style: normal;
+  font-size: medium;
 }
 
 dl {
-  color: white
-}
-
-a:link, a:active, a:visited {
+  text-align: left;
   color: white;
+  font-style: normal;
+  font-size: medium;
 }
 
 body {
   background-color: black;
+  text-align: left;
+  color: white;
+  font-style: normal;
+  font-size: medium;
 }
 
 #arteon {
   background-image: url("../imgs/arteon.jpg");
+}
+
+#touareg {
+  background-image: url("../imgs/touareg.jpg");
 }
 
 p.center_paragraph {
@@ -45,4 +55,46 @@ h4.center_header, h5.center_header, h6.center_header {
   color: white;
   font-style: normal;
   font-size: large;
+}
+
+table {
+  border: 3px solid white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  margin: auto;
+  padding: 3px 3px;
+  border-spacing: 3px 3px;
+}
+
+caption {
+  margin-top: 30px !important;
+  font-size: 22px !important;
+  margin-bottom: 8px !important;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+th {
+  background: #ffffff;
+  color: #000000;
+  font-size: 20px !important;
+ }
+
+img.table_images {
+  width: 370px;
+  height: 246px;
+}
+
+img.vw {
+  width: 300px;
+  height: 300px;
+}
+
+img.passat {
+  width: 640px;
+  height: 640px;
 }
