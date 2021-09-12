@@ -39,11 +39,11 @@ body {
 }
 
 #arteon {
-  background-image: url("../imgs/arteon.jpg");
+  background-image: url(".../imgs/arteon.jpg");
 }
 
 #touareg {
-  background-image: url("../imgs/touareg.jpg");
+  background-image: url(".../imgs/touareg.jpg");
 }
 
 p.center_paragraph {
