@@ -39,11 +39,15 @@ body {
 }
 
 #arteon {
-  background-image: url(".../imgs/arteon.jpg");
+  background-image: url("../../imgs/arteon.jpg");
 }
 
 #touareg {
-  background-image: url(".../imgs/touareg.jpg");
+  background-image: url("../../imgs/touareg.jpg");
+}
+
+#golf {
+  background-image: url("../../imgs/golf.jpg");
 }
 
 p.center_paragraph {
@@ -105,4 +109,17 @@ img.vw {
 img.passat {
   width: 640px;
   height: 640px;
+}
+
+p b {
+  font-size: 20px;
+  color: lightblue;
+}
+
+sup + sub {
+  color: lightblue;
+}
+
+li > i {
+  color: lightblue;
 }
