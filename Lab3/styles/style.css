@@ -51,7 +51,7 @@ body {
 }
 
 #jetta {
-  background-image: url("../../imgs/jetta.jpg");
+  background-color: white;
 }
 
 p.center_paragraph {
@@ -126,4 +126,47 @@ sup + sub {
 
 li > i {
   color: lightblue;
+}
+
+.jetta_header {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 40px;
+  color:white;
+  -webkit-text-stroke-width: thin;
+  -webkit-text-stroke-color: black;
+  float:right;
+  margin-top: 10px;
+  margin-right: 70px;
+  margin-left: 40px;
+}
+
+.jetta_logo {
+  shape-outside: ellipse();
+  margin-left: 0px;
+  float: left;
+  padding-right: 20px;
+}
+
+.jetta_text {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-style: italic;
+  color:black;
+  position: relative;
+  top: 10px;
+  height: 400px;
+}
+
+.jetta_img {
+  shape-outside: ellipse();
+  float: right;
+}
+
+.jetta_links {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 18px;
+  position: relative;
 }
