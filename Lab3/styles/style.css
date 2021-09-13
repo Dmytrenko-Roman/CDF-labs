@@ -50,6 +50,10 @@ body {
   background-image: url("../../imgs/golf.jpg");
 }
 
+#jetta {
+  background-image: url("../../imgs/jetta.jpg");
+}
+
 p.center_paragraph {
   text-align: center;
   color: white;
