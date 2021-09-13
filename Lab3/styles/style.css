@@ -168,5 +168,6 @@ li > i {
   text-align: center;
   font-family:'Courier New', Courier, monospace;
   font-size: 18px;
+  font-weight: bold;
   position: relative;
 }
