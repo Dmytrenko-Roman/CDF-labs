@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="../Lab3/styles/style.css" type="text/css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Dmytrenko Roman">
+    <title>Support</title>
+  </head>
+  <body style="color:#000000;">
+    <h1 style="text-align: center;" id='greet'>Підтримка</h1>
+    <script>
+      alert('На цій сторінці знаходиться інформація про підтримку.');
+      const answer = confirm('Ви згодні на обробку вашої власної інформації?');
+      let info = '';
+      answer ? info = `Доброго дня, ${prompt("Введіть своє прізвище та ім'я.")}.` : info = 'Підтримка';
+      document.getElementById('greet').innerHTML = info;       
+    </script>
+    <p class="center_paragraph">
+      <a href="../Lab3/index.html"><img class="vw" src="../imgs/vw.jpg"></a>
+    </p>
+  </body>
+</html>
