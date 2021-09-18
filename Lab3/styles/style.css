@@ -171,3 +171,10 @@ li > i {
   font-weight: bold;
   position: relative;
 }
+
+.mainInfo {
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}

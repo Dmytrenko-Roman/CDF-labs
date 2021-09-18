@@ -15,14 +15,16 @@
     <meta name="author" content="Dmytrenko Roman">
     <title>Support</title>
   </head>
-  <body style="color:#000000; transition: background .5s; background: white;">
-    <h1 style="text-align: center;" id='greet'></h1>
+  <body style="color:#000000; transition: background .5s; background: white;" vlink=#ffffff link=#ffffff>
+    <h1 style="text-align: center;" id='greet' class="headers"></h1>
 
-    <h2 style="text-align: center;">Вас вітає служба підтримки Volkswagen</h2>
+    <h2 style="text-align: center;" class="headers">Вас вітає служба підтримки Volkswagen.</h2>
 
     <p class="center_paragraph">
-      <a href="../Lab3/index.html"><img class="vw" src="../imgs/vw.png"></a>
+      <img onclick="loadMainPage()" class="vw" src="../imgs/vw.png">
     </p>
+
+    <p align="center" id="url">Waiting...</p>
 
     <script>
       alert('На цій сторінці знаходиться інформація про підтримку.');
@@ -35,5 +37,6 @@
     </script>
     <script src="scripts/comparison.js"></script>
     <script src="scripts/information.js"></script>
+    <script src="scripts/addition.js"></script>
   </body>
 </html>
