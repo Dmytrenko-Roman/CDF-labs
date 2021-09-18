@@ -2,7 +2,7 @@
 
 setInterval(function() {
     document.querySelector('body').style.background = 'black';
-}, 3000);
+}, 30000);
 
 const Comparison = (string1, string2) => {
   let answer = '';

@@ -16,13 +16,18 @@ function changeHeadersStyle() {
 
 changeHeadersStyle();
 
-const txt = document.body.firstChild;
+let c = document.getElementsByTagName("H1")[0];
+let txt = c.childNodes[0].nodeValue;
 console.log(
-  { 'Текст': txt.data,'Посилання на головну сторiнку': url.textContent }
+  { 'Текст': txt,'Посилання на головну сторiнку': url.textContent }
   );
 
 let div = document.createElement('div');
 div.className = "mainInfo";
-div.innerHTML = "По остальным вопросам обращайтесь в официальное представительство Volkswagen.";
-document.body.append(div);
-setTimeout(() => div.remove(), 10000)
+div.innerHTML = "Щодо запитань звертайтесь в офіційне представництво Volkswagen.";
+document.body.prepend(div);
+
+setTimeout(function () {
+  div.remove();
+  document.body.append(div);
+  }, 10000);
