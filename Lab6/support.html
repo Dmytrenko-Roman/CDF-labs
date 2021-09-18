@@ -2,22 +2,35 @@
 <html>
   <head>
     <link rel="stylesheet" href="../Lab3/styles/style.css" type="text/css"/>
+    <style>
+      th {
+        color: #ffffff !important;
+        background: none !important;
+      }
+    </style>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="author" content="Dmytrenko Roman">
     <title>Support</title>
   </head>
   <body style="color:#000000; transition: background .5s; background: white;">
-    <h1 style="text-align: center;" id='greet'>Підтримка</h1>
-    <script>
-      alert('На цій сторінці знаходиться інформація про підтримку.');
-      const answer = confirm('Ви згодні на обробку вашої власної інформації?');
-      let info = '';
-      answer ? info = `Доброго дня, ${prompt("Введіть своє прізвище та ім'я.")}.` : info = 'Підтримка';
-      document.getElementById('greet').innerHTML = info;       
-    </script>
+    <h1 style="text-align: center;" id='greet'></h1>
+
+    <h2 style="text-align: center;">Вас вітає служба підтримки Volkswagen</h2>
+
     <p class="center_paragraph">
       <a href="../Lab3/index.html"><img class="vw" src="../imgs/vw.png"></a>
     </p>
-    <script src="script.js"></script>
+
+    <script>
+      alert('На цій сторінці знаходиться інформація про підтримку.');
+      let answer = confirm('Ви згодні на обробку вашої власної інформації?');
+      while (!answer) {
+        answer = confirm('Ви згодні на обробку вашої власної інформації?');
+      }
+      const info = `Доброго дня, ${prompt("Введіть своє прізвище та ім'я.")}.`;
+      document.getElementById('greet').innerHTML = info;       
+    </script>
+    <script src="scripts/comparison.js"></script>
+    <script src="scripts/information.js"></script>
   </body>
 </html>
