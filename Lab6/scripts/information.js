@@ -19,7 +19,7 @@ function Information(name, surname, position = 'Директор') {
   const th3 = document.createElement("TH");
   const n = document.createTextNode("Ім'я");
   const s = document.createTextNode("Прізвище");
-  const p = document.createTextNode("Позиція");
+  const p = document.createTextNode("Посада");
   th1.appendChild(n);
   th2.appendChild(s);
   th3.appendChild(p);

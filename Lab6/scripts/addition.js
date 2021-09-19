@@ -18,7 +18,7 @@ changeHeadersStyle();
 
 let c = document.getElementsByTagName("H1")[0];
 let txt = c.childNodes[0].nodeValue;
-console.log(
+console.info(
   { 'Текст': txt,'Посилання на головну сторiнку': url.textContent }
   );
 
