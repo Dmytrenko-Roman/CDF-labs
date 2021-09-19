@@ -178,3 +178,8 @@ li > i {
   color: white;
   margin-top: 20px;
 }
+
+.supHeader {
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}

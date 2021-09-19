@@ -10,4 +10,4 @@ const Comparison = (string1, string2) => {
   alert(answer);
 }
 
-Comparison('BMW', 'Volkswagen вітає вас!')
+Comparison('BMW', 'Volkswagen вітає вас!');

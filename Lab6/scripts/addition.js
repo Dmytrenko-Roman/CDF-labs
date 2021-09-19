@@ -14,7 +14,18 @@ function changeHeadersStyle() {
   }
 }
 
+function replace() {
+  const p = document.getElementById("sup");
+  const t = document.createTextNode("Підтримка");
+  const h1 = document.createElement("h1");
+  h1.appendChild(t);
+  t.after(" | Інформація");
+  h1.className = "supHeader";
+  p.replaceWith(h1);
+}
+
 changeHeadersStyle();
+replace();
 
 let c = document.getElementsByTagName("H1")[0];
 let txt = c.childNodes[0].nodeValue;
