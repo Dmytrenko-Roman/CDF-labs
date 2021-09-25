@@ -188,3 +188,12 @@ img.beetle {
   width: 640px;
   height: 480px;
 }
+
+ul.beetle {
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.highlight {
+  background: darkred;
+}
