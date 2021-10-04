@@ -197,3 +197,9 @@ ul.beetle {
 .highlight {
   background: darkred;
 }
+
+.polosedan {
+  shape-outside: ellipse();
+  width: 960px;
+  height: 540px;
+}
