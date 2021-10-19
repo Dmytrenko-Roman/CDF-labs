@@ -41,6 +41,6 @@ txt.onmousedown = function(event) {
   }
 }
 
-ball.ondragstart = function() { 
+txt.ondragstart = function() { 
   return false;
 }
